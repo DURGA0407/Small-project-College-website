@@ -1,0 +1,248 @@
+
+.wrapper
+{
+    width:1100px;
+    margin:0 ;
+}
+
+.home-area
+{
+    height:1100vh;
+    width:100%;
+    
+}
+.sidebar
+{
+    height:100%;
+    width:248px;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #000;
+    overflow-x:hidden;
+    padding-top:200px;
+}
+
+.sidebar a{
+    padding: 50px 10px 10px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    display:block;
+    text-transform: uppercase;
+    color:white;
+}
+
+.sidebar a:hover 
+{
+    color:deeppink;
+    font-size:22px;
+}
+.content-area
+{
+    margin-left: 230px;
+    padding: 0 10px;
+}
+
+
+#home
+{
+    text-align:center;
+    font-size: 20px;
+    margin:0 ;
+    width:100%;
+}
+
+
+h2
+{
+    color:blueviolet;
+    text-shadow: 3px 2px #000;
+}
+.pts{
+    padding-left: 90px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pic
+{
+    display:flex;
+    flex-direction: row;
+    width:75%;
+    margin-left: 130px;
+}
+table{
+    display:flex;
+    flex-direction: row;
+}
+
+/*icons styling for home page*/
+.achievements
+{
+    display:flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+
+.fa-award
+{
+    font-size: 50px;
+    display:flex; 
+    margin-top:85px;
+    margin-left: 80px;
+    color:#000;
+}
+.fa-earth-americas
+{
+    font-size: 50px;
+    display:flex;
+    margin-top:85px;
+    margin-left: 80px;
+    color: #3878e2;
+}
+.fa-computer
+{
+    font-size: 50px;
+    display:flex;  
+    margin-top:85px;
+    margin-left: 80px;
+}
+.fa-users
+{
+    font-size: 50px;
+    display:flex;
+    margin-top:85px;
+    margin-left: 80px;
+    
+    
+}
+
+/*icons styling for contact page*/
+.cdetails
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+   
+    
+}
+.col-1
+{
+    
+    text-align:justify;
+    margin-left:100px;
+    margin-right: 30px;
+    padding-right: 20px;
+    
+    
+}
+.fa-youtube, .fa-facebook, .fa-instagram, .fa-twitter, .fa-envelope , .fa-phone , .fa-location-dot
+{
+    font-size: 45px;
+    padding-left:8px;
+}
+.col-2
+{
+    text-align:center;
+    margin-top: -6rem;
+    margin-left:30rem;
+    
+    padding-top: 0px;
+    padding-left:108px;
+    
+}
+.col-3
+{
+    text-align: justify;   
+    padding-left: 9rem;
+    margin-top:10rem;
+    padding-top: 50px;
+}
+
+.col-4
+{
+    text-align:center;
+    margin-top: -175px;
+    margin-left:20rem;
+    padding-top: 0px;
+    padding-left:20rem;
+    padding-right: 10px;
+}
+
+table
+{
+    border:3px solid white;
+    margin-top:50px;
+    margin-left:25rem;
+}
+
+/*Info page styling*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    
+max-width: 350px;
+position: relative;
+margin: auto;
+}
+
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+
+.numbertext {
+color: #121010;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+

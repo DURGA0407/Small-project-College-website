@@ -1,0 +1,331 @@
+<!---<!DOCTYPE html>
+<head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <style>
+        .sidebar
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:16px;
+            margin:0px;
+            width:200px;
+            padding-left:0px;
+            height:100%;
+            padding-bottom:60px;
+            background-color: bisque;
+            position:fixed;
+            display:block;
+            text-decoration:none;
+            overflow: auto;
+            position:fixed;
+            
+        }
+        .sidebar a{
+            display: block;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            font-size:20px ;
+        }
+        
+        #heading
+        {
+            text-align: justify;
+            text-decoration: wavy;
+        }
+        .active
+        {
+            background-color: orangered;
+            width:280px;
+            color:white;
+            line-height: 50px;
+        }
+
+
+
+        a.visit:hover , a.visit:active 
+        {
+            font-size : 180%;
+        }
+
+    
+
+
+        .sidebar a:hover
+        {
+            background-color: skyblue ;
+            color:white;
+            width: auto ;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 id="heading">Dashboard</h1>
+        <a class="visit" href="home.html">Home</a>
+            <br/><br/>
+
+            
+        <a class="visit" href="contact.html" target="_parent">Contact</a>
+            <br/><br/>
+        <a class="visit" href="information.html">Information</a>
+            <br/><br/>
+        <a class="visit" href="guide.html">Guide</a>
+    </div>
+</body>--->
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <link rel="stylesheet"  href="dashboard.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="sidebar">
+        
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#information">Information</a>
+        <a href="#guide">Guide</a>
+    </div>
+    
+
+    <div class="content-area">
+        <div class="wrapper">
+            <div id="home" class="home-area">
+                <div class="text-content">
+                    
+                    <h2 style="text-align:center">HOME</h2>
+                    <h1>
+                        Welcome to LMN College Student's Portal
+                    </h1>
+                    <img  class="pic" src="college.jpg">
+
+                    <div class="achievements">
+                        <div>
+                            <i class="fa fa-award"></i>
+                            <div>Our College is ranked as top 5<br>college in India.</div>
+                        </div>
+                        <div>
+                            <i class="fa fa-users"></i>
+                            <div>Highly qualified staffs with an <br>average experience of 13+ years</div>
+                        </div>
+                        <div>
+                            <i class="fa fa-earth-americas"></i>
+                            <div>Over 30% alumni work in abroad</div>
+                        </div>
+                        <div>
+                            <i class="fa fa-computer" style="color: #17191c;"></i>
+                            <div>World class amenities and <br>well equipped classrooms</div>
+                        </div> 
+                    </div>
+                   
+                </div>
+
+                <div id="contact" class="contact-area">
+                    <div class="text-content">
+                        <h2 style="text-align:center">CONTACT</h2>
+                        <div class="cdetails">
+                            <div class="col-1">
+                                <div><p><b>Follow us on Social Media</b></p></div>
+                                <i class="fa-brands fa-instagram" style="color: #f80dcc;"></i>
+                                <i class="fa-brands fa-youtube" style="color: #ea3406;"></i>
+                                <i class="fa-brands fa-facebook" style="color: #161072;"></i>
+                                <i class="fa-brands fa-twitter" style="color: skyblue"></i>
+                            </div>
+                            
+                            <div class="col-2">
+                                <div><i class="fa fa-envelope"></i></div>
+                                <div><h3>Mail</h3></div>
+                                <div><b>General Mail:</b>lmn@hotmail.com</div>
+                                <div><b>Principal:</b>xavier@yahoo.com</div>
+                                <div><b>Student's Welfare:</b>studentwelfare@gmail.com</div>
+                            </div>
+
+
+                            
+
+                            <div class="col-3">
+                                <div><i class="fa fa-phone"></i></div>
+                                <div><h3>Call Us</h3></div>
+                                <div><b>For General Enquiries:</b><br>044-12345667</div>
+                                <div><b>College Hours:</b>8:00am to 4:30pm</div>
+                            </div>
+                            
+                            <div class="col-4">
+                                <div><i class="fa fa-location-dot" ></i></div>
+                                <div><h3>Location</h3></div>
+                                <div><b>Campus Address:</b>1/3A River View Road, Sector 3,<br>Kempachu,Chennai,Tamil Nadu-600085</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="information" class="information-area">
+                    <div class="text-content">
+                        <h2 style="text-align: center;">INFORMATION</h2>
+
+                        <table border="1" cellspacing="3" width="60%">
+                            <tr>
+                                <th>Academics Department</th>
+                                <th>Course Programs</th>
+                            </tr>
+                            <tr>
+                                <td>Applied Chemistry</td>
+                                <td>-------</td>
+                            </tr>
+                            <tr>
+                                <td>Applied Maths</td>
+                                <td>-------</td>
+                            </tr>
+                            <tr>
+                                <td>Applied Physics</td>
+                                <td>-------</td>
+                            </tr>
+                            <tr>
+                                <td>Automobile Engineering</td>
+                                <td>B.E & M.E</td>
+                            </tr>
+                            <tr>
+                                <td>Artificial Intelligence and Data Science</td>
+                                <td>B.E & M.E</td>
+                            </tr>
+                            <tr>
+                                <td>Biotechnology</td>
+                                <td>B.Tech & M.Tech</td>
+                            </tr>
+                            <tr>
+                                <td>Computer Scince and Engineering</td>
+                                <td>B.E , M.E & Ph.D</td>
+                            </tr>
+                            <tr>
+                                <td>Civil Engineering</td>
+                                <td>B.E , M.E & Ph.D</td>
+                            </tr>
+                            <tr>
+                                <td>Chemical Engineering</td>
+                                <td>B.E , M.E & Ph.D</td>
+                            </tr>
+                            <tr>
+                                <td>Information Technology</td>
+                                <td>B.Tech & M.Tech & Ph.D</td>
+                            </tr>    
+                        </table>
+
+                        <br><br><br>
+                        
+
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 7</div>
+                              <img src="amazon_logo.png" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 7</div>
+                              <img src="microsoft_logo.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 7</div>
+                              <img src="mcafee_logo.png" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 7</div>
+                                <img src="adobe_logo.png" style="width:100%">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 7</div>
+                                <img src="Freshworks_Logo.jpg" style="width:100%">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">6 / 7</div>
+                                <img src="cisco_logo.png" style="width:100%">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">7 / 7</div>
+                                <img src="vmware_logo.jpg" style="width:100%">
+                                <div class="text"></div>
+                            </div>
+                            
+                            </div>
+                            <br>
+                            
+                            <div style="text-align:center">
+                              <span class="dot"></span> 
+                              <span class="dot"></span> 
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span> 
+                            </div>
+
+                            <script src="dashboard.js"></script>
+                    </div>
+                </div>
+
+                <div id="guide" class="guide-area">
+                    <div class="text-content">
+                        <h2 style="text-align: center;">GUIDE</h2>
+                    
+                            <h4><u>Instructions that the students has to follow in college campus</u></h4>
+                            <p style="text-align: justify; margin-left: 10rem;">
+                                
+                                • Students should only wear a formal dress (Formal shirts and Pants) so as to bring out
+                                their professional stature.<br>
+                                • During placement and career related events and other formal functions like
+                                conferences, boys should necessarily tuck in their shirts and wear formal shoes.<br>
+                                • Girls should follow the dress code prescribed by the Training and Placement Cell.<br>
+                                • Students coming in a casual manner will not be allowed to take part in any of
+                                the events.<br>
+                                • Pants with dress with tight fittings and above the knee length will not be allowed.<br>
+                                • Shirts should be not in gaudy colors and should not be of semi formal or casual
+                                category.<br>
+                                • Bathroom slippers and other casual footwear will not be allowed. Dress and Slippers
+                                with any wordings / writings and pictures will not be allowed.<br>
+                                • Students should not sport mushroom cut kind of fancy hair styles, fancy beards and
+                                fancy moustaches. Hair coloring is not allowed. Boys should not wear Ear studs for
+                                fancy reasons unless the religious reasons call for wearing the same.<br>
+                                • Girls should follow the dress code that fully conforms with the Professional Indian
+                                style / attire<br>
+                                • Students should not venture into isolated places which are unassigned to them and
+                                where there is no academic or other activities happening or pertaining to their stay in
+                                the campus or for sports.<br>
+                                • Students should always have / wear their ID cards with them for proving their identity
+                                whenever requested by the authorities.<br>
+                                • Polite and courteous behaviour with friends and teachers and professional behaviour
+                                as audience during meetings / classrooms (by being attentive to the speaker / not
+                                using mobile phones / not involving in talking etc.) is expected.<br>
+                                • Students are advised to discuss with their parents about the importance of these
+                                instructions and get suitable attire for their wardrobe in conformance with the above
+                                instructions.<br>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
